@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import requests
 
 # Define the Streamlit app
 st.title('Taxi Fare Estimation')
@@ -22,10 +23,17 @@ surge_applied = st.sidebar.radio('Surge Applied', ['No', 'Yes'])
 # Convert surge_applied to binary (0 or 1)
 surge_binary = 1 if surge_applied == 'Yes' else 0
 
+<<<<<<< HEAD
 # Load your trained regression model from the specified path
 model_path = r'C:\Users\Aashir\Desktop\Data-Science-and-Analytics-CEP-Project\model'  
 with open(model_path, 'rb') as model_file:
     your_model = pickle.load(model_file)
+=======
+# Load your trained regression model from GitHub
+model_url = 'model.pkl'
+response = requests.get(model_url)
+your_model = pickle.loads(response.content)
+>>>>>>> bbbcc911d6fc44c008f62390285ef743dd4165ac
 
 # Add a button for prediction
 if st.sidebar.button('Predict Total Fare'):
