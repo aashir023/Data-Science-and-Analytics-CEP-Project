@@ -10,8 +10,10 @@ The project includes data collection, data preprocessing, model development, eva
 
 ### Group Members
 **Aashir Ali (20SW023)**
-**Shehzad Haider (20SW067) **
-**Source Ghansham Soomarani (20SW081)**
+
+**Shehzad Haider (20SW067)**
+
+**Ghansham Soomarani (20SW081)**
 
 ### Dataset
 - **Source:** [Provide the source or origin of the dataset, if applicable]
