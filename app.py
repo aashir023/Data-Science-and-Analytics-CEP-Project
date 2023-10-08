@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-import requests
 
 # Define the Streamlit app
 st.title('Taxi Fare Estimation')
@@ -26,12 +25,6 @@ surge_binary = 1 if surge_applied == 'Yes' else 0
 # Load the saved model
 model_path = "taxi_fare.joblib"
 model = joblib.load(model_path)
-
-# Load your trained regression model from GitHub
-model_url = 'model.pkl'
-response = requests.get(model_url)
-your_model = pickle.loads(response.content)
->>>>>>> bbbcc911d6fc44c008f62390285ef743dd4165ac
 
 # Add a button for prediction
 if st.sidebar.button('Predict Total Fare'):
