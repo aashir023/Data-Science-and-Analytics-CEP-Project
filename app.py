@@ -32,7 +32,7 @@ if st.sidebar.button('Predict Total Fare'):
     input_data = np.array([[trip_duration, distance_traveled, num_of_passengers, fare, tip, miscellaneous_fees, surge_binary]])
     
     # Use the model to make a prediction
-    prediction = your_model.predict(input_data)
+    prediction = model.predict(input_data)
     
     # Display the prediction
     st.subheader('Predicted Total Fare:')
