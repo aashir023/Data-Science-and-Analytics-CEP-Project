@@ -8,6 +8,11 @@ The project includes data collection, data preprocessing, model development, eva
 
 ## Project Details
 
+### Group Members
+**Aashir Ali (20SW023):**
+**Shehzad Haider (20SW067) **
+**Source Ghansham Soomarani (20SW081)**
+
 ### Dataset
 - **Source:** [Provide the source or origin of the dataset, if applicable]
 - **Description:** The dataset used in this project contains information about individual taxi rides, including features such as trip duration, distance traveled, number of passengers, fare, tip, miscellaneous fees, total fare, and surge pricing.
