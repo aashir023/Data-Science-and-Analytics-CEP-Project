@@ -16,7 +16,7 @@ The project includes data collection, data preprocessing, model development, eva
 **Ghansham Soomarani (20SW081)**
 
 ### Dataset
-- **Source:** [Provide the source or origin of the dataset, if applicable]
+- **Source:** https://www.kaggle.com/datasets/raviiloveyou/predict-taxi-fare-with-a-bigquery-ml-forecasting
 - **Description:** The dataset used in this project contains information about individual taxi rides, including features such as trip duration, distance traveled, number of passengers, fare, tip, miscellaneous fees, total fare, and surge pricing.
 
 ### Data Analysis
@@ -35,15 +35,17 @@ The project includes data collection, data preprocessing, model development, eva
 
 ## Blog post
 Link : https://medium.com/@aashirali619/predicting-taxi-fares-with-machine-learning-a-data-science-project-7005b381a173
-Please read my blog post on about this project where i have explained this project in detail.
+
+Please read my blog post on Medium about this project where i have explained this project in detail.
 
 ## Dependencies
 - Python (version X.X)
 - Libraries: pandas, numpy, matplotlib scikit-learn, streamlit
 
 ## Contributors
-- [Aashir Ali]
-- [Ghansham Soomarani and Shahzad Haider]
+- Aashir Ali
+- Ghansham Soomarani
+- Shahzad Haider
 
 ## Acknowledgments
 - Kaggle : From where i downloaded this dataset
