@@ -18,10 +18,10 @@ surge_applied = st.radio('Surge Applied', ['No', 'Yes'])
 # Convert surge_applied to binary (0 or 1)
 surge_binary = 1 if surge_applied == 'Yes' else 0
 
-# Load your trained regression model from the specified path
-model_path = r'C:\Users\Aashir\Desktop\DSA project\model'  # Update with your model's path
-with open(model_path, 'rb') as model_file:
-    your_model = pickle.load(model_file)
+# Load your trained regression model from GitHub
+model_url = 'model.pkl'
+response = requests.get(model_url)
+your_model = pickle.loads(response.content)
 
 # Button to predict total fare
 if st.button('Predict Total Fare'):
