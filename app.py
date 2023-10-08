@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import requests
 
 # Define the Streamlit app
 st.title('Total Fare Prediction App')
