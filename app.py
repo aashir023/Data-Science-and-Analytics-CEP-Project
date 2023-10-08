@@ -23,12 +23,10 @@ surge_applied = st.sidebar.radio('Surge Applied', ['No', 'Yes'])
 # Convert surge_applied to binary (0 or 1)
 surge_binary = 1 if surge_applied == 'Yes' else 0
 
-<<<<<<< HEAD
-# Load your trained regression model from the specified path
-model_path = r'C:\Users\Aashir\Desktop\Data-Science-and-Analytics-CEP-Project\model'  
-with open(model_path, 'rb') as model_file:
-    your_model = pickle.load(model_file)
-=======
+# Load the saved model
+model_path = "taxi_fare.joblib"
+model = joblib.load(model_path)
+
 # Load your trained regression model from GitHub
 model_url = 'model.pkl'
 response = requests.get(model_url)
