@@ -33,16 +33,9 @@ The project includes data collection, data preprocessing, model development, eva
 - The trained model was deployed on a Streamlit server, allowing users to interact with the model through a user-friendly web interface.
 - Users can input ride-related information, and the model will provide an estimated fare in real-time.
 
-## Key Findings
-
-- [Include key findings and insights from your data analysis here. For example, highlight important correlations, trends, or factors that impact taxi fares.]
-
-## Usage
-To run the Streamlit app and interact with the model, follow these steps:
-
-1. [Add instructions on how to set up and run the Streamlit app, including any necessary installations.]
-
-2. [Provide guidance on how to use the web interface to input ride details and obtain fare predictions.]
+## Blog post
+Link : https://medium.com/@aashirali619/predicting-taxi-fares-with-machine-learning-a-data-science-project-7005b381a173
+Please read my blog post on about this project where i have explained this project in detail.
 
 ## Dependencies
 - Python (version X.X)
